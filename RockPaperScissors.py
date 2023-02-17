@@ -1,3 +1,6 @@
+# Esse é um jogo simples de pedra, papel e tesoura para ser jogado contra o computador em Python. O programa permite que o usuário escolha uma opção e exibe o resultado. O jogo continua até que o usuário decida sair.
+# This is a simple Python code for playing rock, paper, and scissors against the computer. The program prompts the user to choose an option and displays the result. The game continues until the user decides to quit.
+
 from random import randrange
 
 rock = '''
