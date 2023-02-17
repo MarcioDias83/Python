@@ -36,7 +36,7 @@ while user != 0:
     random = randrange(1, 4) # change the range to include 3
     if user == 1:  # user choose rock
         if random == 1:
-            print("Tie!")
+            print("Draw!")
         elif random == 2:
             print("You lose!")
         elif random == 3:
@@ -45,7 +45,7 @@ while user != 0:
         if random == 1:
             print("You win!")
         elif random == 2:
-            print("Tie!")
+            print("Draw!")
         elif random == 3:
             print("You lose!")
     elif user == 3:  # user choose scissors
@@ -54,7 +54,7 @@ while user != 0:
         elif random == 2:
             print("You win!")
         elif random == 3:
-            print("Tie!")
+            print("Draw!")
     elif user < 0 or user > 3:
         print("Invalid option!")
     print("Select an option:")
