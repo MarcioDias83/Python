@@ -31,34 +31,34 @@ scissors = '''
 '''
 
 print("Select an option:")
-usuario = int(input("1 - Rock\n2 - Paper\n3 - Scissors\n0 - Close the game.\n"))
-while usuario != 0:
+user = int(input("1 - Rock\n2 - Paper\n3 - Scissors\n0 - Close the game.\n"))
+while user != 0:
     random = randrange(1, 4) # change the range to include 3
-    if usuario == 1:  # usuário escolheu pedra
+    if user == 1:  # user choose rock
         if random == 1:
-            print("Empate!")
+            print("Tie!")
         elif random == 2:
-            print("Você perdeu!")
+            print("You lose!")
         elif random == 3:
-            print("Você ganhou!")
-    elif usuario == 2:  # usuário escolheu papel
+            print("You win!")
+    elif user == 2:  # user choose paper
         if random == 1:
-            print("Você ganhou!")
+            print("You win!")
         elif random == 2:
-            print("Empate!")
+            print("Tie!")
         elif random == 3:
-            print("Você perdeu!")
-    elif usuario == 3:  # usuário escolheu tesoura
+            print("You lose!")
+    elif user == 3:  # user choose scissors
         if random == 1:
-            print("Você perdeu!")
+            print("You lose!")
         elif random == 2:
-            print("Você ganhou!")
+            print("You win!")
         elif random == 3:
-            print("Empate!")
-    elif usuario < 0 or usuario > 3:
-        print("Opção inválida!")
+            print("Tie!")
+    elif user < 0 or user > 3:
+        print("Invalid option!")
     print("Select an option:")
-    usuario = int(input("1 - Rock\n2 - Paper\n3 - Scissors\n0 - Close the game.\n"))
+    user = int(input("1 - Rock\n2 - Paper\n3 - Scissors\n0 - Close the game.\n"))
 
-print("Saindo...")
+print("Closing...")
 exit()
